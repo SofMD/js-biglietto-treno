@@ -23,7 +23,12 @@ console.log(prezzoBiglietto);
 let prezzoScontato;
 
 if (etàUtente < 18) {
-    prezzoScontato = (prezzoBiglietto / 100)* 20;
+    prezzoScontato = (prezzoBiglietto * 20) / 100;
     console.log(prezzoScontato);
 }
 
+// calcolo prezzo per gli over 65 (sconto 40%)
+if (etàUtente >= 65) {
+    prezzoScontato = (prezzoBiglietto * 40) / 100;
+    console.log(prezzoScontato);
+}
