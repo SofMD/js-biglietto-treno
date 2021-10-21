@@ -32,3 +32,6 @@ if (etàUtente >= 65) {
     prezzoScontato = (prezzoBiglietto * 40) / 100;
     console.log(prezzoScontato);
 }
+
+// prezzo Finale
+document.getElementById('prezzoFinale').innerHTML = prezzoScontato ;
