@@ -13,4 +13,8 @@ console.log(kilometri);
 
 // chiedere età
 const etàUtente = parseInt( prompt('Inserisci la tua età'));
-console.log(etàUtente)
+console.log(etàUtente);
+
+// calcola il prezzo del biglietto che è definito in base ai km (0.21 € al km)
+const prezzoBiglietto = kilometri* 0.21;
+console.log(prezzoBiglietto)
