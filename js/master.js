@@ -34,4 +34,4 @@ if (etàUtente >= 65) {
 }
 
 // prezzo Finale
-document.getElementById('prezzoFinale').innerHTML = prezzoScontato ;
+document.getElementById('prezzoFinale').innerHTML = prezzoScontato.toFixed(2);
